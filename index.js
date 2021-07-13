@@ -1,17 +1,51 @@
-const path = require('path');
-const os = require('os');
-const fs = require('fs');
+
+
+
+// const School = require('./school')
+
+// const school = new School();
+
+// school.on('bellRing', ({ period, text }) => {
+//     console.log(`We need ${period} and ${text}`);
+// })
+// school.startPeriod();
 
 
 
 
-fs.readFile('myFiles.txt', (err, data) => {
-    console.log(data);
-    console.log(data.toString());
-})
-console.log('1_hello_world');
 
 
+
+
+
+
+// const path = require('path');
+// const os = require('os');
+// const fs = require('fs');
+
+
+
+
+
+
+
+
+
+// setTimeout(() => {
+//     emitter.emit('bellRing', {
+//         period: 'First Period is end',
+//         text: 'HEllo'
+//     })
+// }, 2000)
+
+
+
+
+// fs.readFile('myFiles.txt', (err, data) => {
+//     console.log(data);
+//     console.log(data.toString());
+// })
+// console.log('1_hello_world');
 
 
 
